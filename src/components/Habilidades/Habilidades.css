@@ -1,0 +1,31 @@
+.habilidades-container{
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #71677C;
+}
+.barrinha-container{
+    border: 2px solid white;
+    border-radius: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.habilidade-container{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.preenchimentoBarrinha{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.lang{
+    flex: 1;
+    text-align: left;
+}

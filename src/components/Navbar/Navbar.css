@@ -1,0 +1,27 @@
+body{
+    background-color: #37123C;
+    color: #fff;;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+    /* background-color: coral; */
+}
+.navbar-item:hover{
+    color: #DDA77B;
+}
+
+.space{
+    flex:4;
+}
+.navbar-item{
+    flex: 1;
+    text-align: center;
+    font-size: 1em
+}

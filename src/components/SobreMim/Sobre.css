@@ -1,0 +1,31 @@
+.sobre-mim-container{
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foto-container{
+    display: flex;
+    float: left;
+}
+
+.foto-perfil{
+    flex: 1;
+    object-fit: contain;
+    height: 300px;
+    border-radius: 200px;
+}
+
+.aboutme{
+    font-size: 2em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #DDA77B;
+}
+
+.ipsum{
+    max-width: 800px;
+    text-align: left;
+}
